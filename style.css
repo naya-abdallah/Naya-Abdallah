@@ -1,0 +1,188 @@
+body {
+	background-image: url("images/blehehe.png"); 
+	background-size: cover;
+	color:rgb(3;3;3);
+	font-family: 'Lobster', cursive;
+}
+h1 {
+    color: rgb(51 21 206);
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    line-height: 3;
+    font-weight: lighter;
+}
+
+h2 { 
+padding: 20px;
+font-family: 'Dela Gothic One', cursive;
+ }
+
+h3 { font-family: Pacifico, cursive;
+	color: #e498a6;
+	font-size: 30px;
+	padding-bottom: 0px;
+ }
+
+a { text-decoration: none;
+	color: black; }
+
+
+div { 
+	padding: 100px;
+	margin: 100px;
+	align-content: center;
+
+}
+
+.card-white {
+	box-shadow:1px 1px 3px red;
+	background-color: white;
+	padding: 10px;
+	border-radius: 4px;
+	box-shadow:0 10px 30px pink; 
+	margin:20px, auto;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 15px; 
+	align-content: center;
+	
+}
+
+
+#banner { background-image: url("images/blehehe.png"); 
+background-size: cover;
+}
+
+#container {
+	padding: 10px;
+	border-radius: 4px; 
+	margin:20px, auto;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 15px; 
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1)
+	border: solid black;
+	overflow: auto;
+	align-content: center;
+}
+
+.img-circle {
+	width: : 100px;
+	height: 200px;
+}
+
+.img-circle:hover { 
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #6f6fde;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	margin: 15px;
+	font-family: 'Lobster', cursive;
+}
+
+.btn-blue:hover { 
+	background-color: gray;
+ }
+
+a:hover {
+	color:black;
+}
+
+#text-bottomspace { 
+padding-bottom: 30px;
+ }
+
+.list-inline {
+list-style: none;
+padding-left: 0px; 
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+	text-align: center;
+}
+
+.list-inline img {
+	display: inline;
+	padding: 30px;
+	text-align: center;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(180,180,180);
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+.test { 
+background-image: url(images/blehehe.png);
+padding-left: 50px;
+margin: 10px;
+ }
+
+ html {
+  scroll-behavior: smooth;
+}
+
+#hamster {
+	height: 60%;
+	width: 96%;
+	
+}
+
+#div-left {
+	float: left;
+	width: 48%;
+	box-shadow: 1px 2px 3px pink; 
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 1px;
+	width: 46%;
+	height: 500px;
+	padding-left: 5px;
+}
+
+#div-right {
+	float: right;
+	margin-left: 0px;
+	margin-right: 1px;
+	width: 46%;
+	height: 500px;
+	text-align: center;
+	box-shadow: 1px 2px 3px pink ;
+	padding-right: 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; }
+
+ #Maya {
+ 	height: 60%;
+ 	width: 90%;
+ }
+
+@media (max-width: 500px) {
+	.container { width: 400px
+	}
+}
+
+@media (max-width: 760px) {
+	.container { width: 600px}
+}
+
+.card-white:hover {
+	background-color: #faf3fb;
+}
+
